@@ -84,7 +84,7 @@ function exportAssets(exportMaps, callback)
 		var NORMAL_MAP_FILE = "textures/" + materialName + "_normal" + ext
 		var SMOOTHNESS_MAP_FILE = "textures/" + materialName + "_roughness" + ext
 		var METALNESS_MAP_FILE = "textures/" + materialName + "_metallic" + ext
-		var OCCLUSION_MAP_FILE = "textures/" + materialName + "_occlusion" + ext
+		var OCCLUSION_MAP_FILE = "textures/" + materialName + "_ambient_occlusion" + ext
 		var PARALLAX_MAP_FILE = "textures/" + materialName + "_height" + ext
 		var CUSTOM_A_MAP_FILE = "textures/" + materialName + "_curvature" + ext
 		var CUSTOM_B_MAP_FILE = "textures/" + materialName + "_thickness" + ext
