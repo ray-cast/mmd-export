@@ -31,7 +31,7 @@ Usage:
 
    ![Alt](./images/TextureSetBox.png "open textureSet settings Box")
 
-4. Click a 'bake all textures sets' Button in 'Baking' Dialog
+4. Setting parameters and click a 'bake all textures sets' Button
 
    ![Alt](./images/baking.png)
 
