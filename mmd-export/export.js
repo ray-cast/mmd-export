@@ -80,14 +80,14 @@ function exportAssets(exportMaps, callback)
 		var CUSTOM_A_MAP_FROM = materialExports['curvature'] ? 1 : 0
 		var CUSTOM_B_MAP_FROM = materialExports['thickness'] ? 1 : 0
 
-		var ALBEDO_MAP_FILE = materialName + "_basecolor" + ext
-		var NORMAL_MAP_FILE = materialName + "_normal" + ext
-		var SMOOTHNESS_MAP_FILE = materialName + "_roughness" + ext
-		var METALNESS_MAP_FILE = materialName + "_metallic" + ext
-		var OCCLUSION_MAP_FILE = materialName + "_occlusion" + ext
-		var PARALLAX_MAP_FILE = materialName + "_height" + ext
-		var CUSTOM_A_MAP_FILE = materialName + "_curvature" + ext
-		var CUSTOM_B_MAP_FILE = materialName + "_thickness" + ext
+		var ALBEDO_MAP_FILE = "textures/" + materialName + "_basecolor" + ext
+		var NORMAL_MAP_FILE = "textures/" + materialName + "_normal" + ext
+		var SMOOTHNESS_MAP_FILE = "textures/" + materialName + "_roughness" + ext
+		var METALNESS_MAP_FILE = "textures/" + materialName + "_metallic" + ext
+		var OCCLUSION_MAP_FILE = "textures/" + materialName + "_occlusion" + ext
+		var PARALLAX_MAP_FILE = "textures/" + materialName + "_height" + ext
+		var CUSTOM_A_MAP_FILE = "textures/" + materialName + "_curvature" + ext
+		var CUSTOM_B_MAP_FILE = "textures/" + materialName + "_thickness" + ext
 
 		var fileContent = ""
 		fileContent += '#define ALBEDO_MAP_FROM ' + ALBEDO_MAP_FROM + '\n'
