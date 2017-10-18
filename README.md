@@ -15,6 +15,7 @@ Requirements:
 ========
 * Substance Painter 2.x (Only tested on 2.6.1)
 * Python 2.7
+* Ray-MMD 1.3.0 and above
 
 Usage:
 ========
