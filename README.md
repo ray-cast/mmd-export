@@ -8,13 +8,12 @@ Install:
 * Download a zip archive from the github page
 * Un-zip the archive
 * Copy the mmd-export folder to Substance Painter's plugin folder
-  > OSX: `/Users/yourlogin/Documents/Substance Painter 2/plugins`
-
-  > Win: `C:/Users/UserName/Documents/Substance Painter 2/plugins`
+  * OSX: `/Users/yourlogin/Documents/Substance Painter 2/plugins`
+  * Win: `C:/Users/UserName/Documents/Substance Painter 2/plugins`
 
 Requirements:
 ========
-* Substance Painter 2.x
+* Substance Painter 2.x (Only tested on 2.6.1)
 * Python 2.7
 
 Contact :
