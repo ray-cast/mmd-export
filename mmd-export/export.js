@@ -259,5 +259,6 @@ function exportAssets(exportMaps, callback)
 		steam.close()
 	}
 
+	alg.log.info("MMD: export path : " + exportPath)
 	alg.log.info("MMD: Export successful !")
 }
