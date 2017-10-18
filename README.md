@@ -3,11 +3,6 @@ MMD-Export
 ### Ray-MMD for Substance Painter 2.x ###
 This plush exports your [Substance Painter](https://www.allegorithmic.com/products/substance-painter) project as one or more Ray-MMD material assert.
 
-Requirements:
-========
-* Substance Painter 2.x
-* Python 2.7
-
 Install:
 ========
 * Download a zip archive from the github page
@@ -15,6 +10,11 @@ Install:
 * Copy the mmd-export folder to Substance Painter's plugin folder
   > OSX: `/Users/yourlogin/Documents/Substance Painter 2/plugins`
   > Win: `C:/Users/UserName/Documents/Substance Painter 2/plugins`
+
+Requirements:
+========
+* Substance Painter 2.x
+* Python 2.7
 
 Contact :
 ------------
