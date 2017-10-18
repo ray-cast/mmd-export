@@ -8,7 +8,7 @@ Install:
 * Download a zip archive from the github page
 * Un-zip the archive
 * Copy the mmd-export folder to Substance Painter's plugin folder
-  * OSX: `/Users/yourlogin/Documents/Substance Painter 2/plugins`
+  * OSX: `/Users/UserName/Documents/Substance Painter 2/plugins`
   * Win: `C:/Users/UserName/Documents/Substance Painter 2/plugins`
 
 Requirements:
@@ -28,7 +28,7 @@ Usage:
    ![Alt](./images/new_project.png "choose a model")
 
 
-3. Find & Click a 'bake textures' Button from 'TexturesSet Settings' box
+3. Find & Click a 'bake textures' button from 'TexturesSet Settings' box
 
    ![Alt](./images/TextureSetBox.png "open textureSet settings Box")
 
@@ -40,7 +40,7 @@ Usage:
 
    ![Alt](./images/progess.png)
 
-5. Once this Baking progress is done, click the Export button in the toolbar.
+5. Once this baking progress is done, click the Export button in the toolbar.
 
    ![Alt](./images/export.png)
 
