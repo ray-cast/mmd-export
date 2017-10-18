@@ -1,0 +1,6 @@
+{
+	"description": "This plugin exports a painter project to Ray-MMD Assets.",
+	"url": "https://github.com/ray-cast/ray-mmd",
+	"version": "1.0.0",
+	"license": "<a href=\"https://opensource.org/licenses/MIT\">MIT</a>"
+}
