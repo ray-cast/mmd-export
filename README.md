@@ -47,7 +47,8 @@ Usage:
 
    ![Alt](./images/choose.png)
 
-7. It will output some textures and fx materials and you can get these files from "C:\Users\UserName\Documents\Substance Painter 2\export\MMD"
+7. It will output some textures and fx materials and you can get these files from:
+    >`C:\Users\UserName\Documents\Substance Painter 2\export\MMD`
 
 Contact :
 ------------
