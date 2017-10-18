@@ -22,16 +22,16 @@ Usage:
 
    ![Alt](./images/menu.png "open new project dialog")
 
-2. Click a 'Select' Button in 'New Project' Dialog and choose select a model
+2. Click a 'Select' Button in 'New Project' dialog and choose select a model
 
    ![Alt](./images/new_project.png "choose a model")
 
 
-3. Find & Click a 'bake textures' Button from 'TexturesSet Settings' Box
+3. Find & Click a 'bake textures' Button from 'TexturesSet Settings' box
 
    ![Alt](./images/TextureSetBox.png "open textureSet settings Box")
 
-4. Setting parameters and click a 'bake all textures sets' Button
+4. Setting parameters and click a 'Bake all textures sets' button
 
    ![Alt](./images/baking.png)
 
@@ -39,15 +39,15 @@ Usage:
 
    ![Alt](./images/progess.png)
 
-5. Once this Baking progress is done, Click the Export Button in the Toolbar.
+5. Once this Baking progress is done, click the Export button in the toolbar.
 
    ![Alt](./images/export.png)
 
-6. Choose the textures that you want to export them, then Click a Ok Button
+6. Choose the textures that you want to export them, then click a Ok button
 
    ![Alt](./images/choose.png)
 
-7. It will output some textures and fx materials and you can get these files by "C:\Users\UserName\Documents\Substance Painter 2\export\MMD"
+7. It will output some textures and fx materials and you can get these files from "C:\Users\UserName\Documents\Substance Painter 2\export\MMD"
 
 Contact :
 ------------
