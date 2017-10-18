@@ -1,7 +1,7 @@
 MMD-Export
 ========
 ### Ray-MMD for Substance Painter 2.x ###
-This plush exports your [Substance Painter](https://www.allegorithmic.com/products/substance-painter) project as Ray-MMD material assert.
+This plugin exports your [Substance Painter](https://www.allegorithmic.com/products/substance-painter) project as Ray-MMD material assert.
 
 Install:
 ========
