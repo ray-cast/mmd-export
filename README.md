@@ -22,7 +22,7 @@ Usage:
 
    ![Alt](./images/menu.png "open new project dialog")
 
-2. Click a 'Select' Button in New Project and choose select a model
+2. Click a 'Select' Button in 'New Project' Dialog and choose select a model
 
    ![Alt](./images/new_project.png "choose a model")
 
@@ -31,7 +31,7 @@ Usage:
 
    ![Alt](./images/TextureSetBox.png "open textureSet settings Box")
 
-4. Click a 'bake all textures sets' Button in Baking Dialog
+4. Click a 'bake all textures sets' Button in 'Baking' Dialog
 
    ![Alt](./images/baking.png)
 
