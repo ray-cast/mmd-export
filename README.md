@@ -1,7 +1,7 @@
 MMD-Export
 ========
 ### Ray-MMD for Substance Painter 2.x ###
-This plush exports your [Substance Painter](https://www.allegorithmic.com/products/substance-painter) project as one or more Ray-MMD material assert.
+This plush exports your [Substance Painter](https://www.allegorithmic.com/products/substance-painter) project as Ray-MMD material assert.
 
 Install:
 ========
@@ -15,6 +15,39 @@ Requirements:
 ========
 * Substance Painter 2.x (Only tested on 2.6.1)
 * Python 2.7
+
+Usage:
+========
+1. Click Menu -> File -> New Project
+
+   ![Alt](./images/menu.png "open new project dialog")
+
+2. Click a 'Select' Button in New Project and choose select a model
+
+   ![Alt](./images/new_project.png "choose a model")
+
+
+3. Find & Click a 'bake textures' Button from 'TexturesSet Settings' Box
+
+   ![Alt](./images/TextureSetBox.png "open textureSet settings Box")
+
+4. Click a 'bake all textures sets' Button in Baking Dialog
+
+   ![Alt](./images/baking.png)
+
+5. Wait for a moment
+
+   ![Alt](./images/progess.png)
+
+5. Once this Baking progress is done, Click the Export Button in the Toolbar.
+
+   ![Alt](./images/export.png)
+
+6. Choose the textures that you want to export them, then Click a Ok Button
+
+   ![Alt](./images/choose.png)
+
+7. It will output some textures and fx materials and you can get these files by "C:\Users\UserName\Documents\Substance Painter 2\export\MMD"
 
 Contact :
 ------------
