@@ -23,7 +23,7 @@ Usage:
 
    ![Alt](./images/menu.png "open new project dialog")
 
-2. Click a 'Select' Button in 'New Project' dialog and choose select a model
+2. Click a 'Select' Button in 'New Project' dialog and choose select a model (X file and T-pose is best)
 
    ![Alt](./images/new_project.png "choose a model")
 
