@@ -73,6 +73,7 @@ function exportAssets(exportMaps, callback)
 
 		var ALBEDO_MAP_FROM = materialExports['basecolor'] ? 1 : 3
 		var NORMAL_MAP_FROM = materialExports['normal'] ? 1 : 0
+		var NORMAL_SUB_MAP_FROM = materialExports['world_space_normals'] ? 1 : 0
 		var SMOOTHNESS_MAP_FROM = materialExports['roughness'] ? 1 : 9
 		var METALNESS_MAP_FROM = materialExports['metallic'] ? 1 : 0
 		var OCCLUSION_MAP_FROM = materialExports['ambient_occlusion'] ? 1 : 0
@@ -82,6 +83,7 @@ function exportAssets(exportMaps, callback)
 
 		var ALBEDO_MAP_FILE = "textures/" + materialName + "_basecolor" + ext
 		var NORMAL_MAP_FILE = "textures/" + materialName + "_normal" + ext
+		var NORMAL_SUB_MAP_FILE = "textures/" + materialName + "_world_space_normals" + ext
 		var SMOOTHNESS_MAP_FILE = "textures/" + materialName + "_roughness" + ext
 		var METALNESS_MAP_FILE = "textures/" + materialName + "_metallic" + ext
 		var OCCLUSION_MAP_FILE = "textures/" + materialName + "_ambient_occlusion" + ext
@@ -129,10 +131,10 @@ function exportAssets(exportMaps, callback)
 		fileContent += 'const float normalMapLoopNum = 1.0;\n'
 		fileContent += '\n'
 
-		fileContent += '#define NORMAL_SUB_MAP_FROM 0\n'
-		fileContent += '#define NORMAL_SUB_MAP_TYPE 0\n'
+		fileContent += '#define NORMAL_SUB_MAP_FROM ' + NORMAL_SUB_MAP_FROM + '\n'
+		fileContent += '#define NORMAL_SUB_MAP_TYPE ' + (NORMAL_SUB_MAP_FROM > 0 ? 4 : 0) + '\n'
 		fileContent += '#define NORMAL_SUB_MAP_UV_FLIP 0\n'
-		fileContent += '#define NORMAL_SUB_MAP_FILE "normal.png"\n'
+		fileContent += '#define NORMAL_SUB_MAP_FILE "'+ NORMAL_SUB_MAP_FILE+ '"\n'
 		fileContent += '\n'
 		fileContent += 'const float normalSubMapScale = 1.0;\n'
 		fileContent += 'const float normalSubMapLoopNum = 1.0;\n'

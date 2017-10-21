@@ -171,6 +171,7 @@ UIDialog
 				UIButton { id: heightButton; text: "height" }
 				UIButton { id: curvatureButton; text: "curvature" }
 				UIButton { id: thicknessButton; text: "thickness" }
+				UIButton { id: worldSpaceNormalButton; text: "world_space_normal" }
 
 				Connections
 				{
@@ -274,6 +275,17 @@ UIDialog
 					{
 						for (var i = 0; i < repeater.count; ++i) {
 							if (repeater.itemAt(i).text == "thickness")
+								repeater.itemAt(i).checked = !repeater.itemAt(i).checked
+						}
+					} 
+				}
+				Connections 
+				{ 
+					target: worldSpaceNormalButton
+					onClicked: 
+					{
+						for (var i = 0; i < repeater.count; ++i) {
+							if (repeater.itemAt(i).text == "world_space_normals")
 								repeater.itemAt(i).checked = !repeater.itemAt(i).checked
 						}
 					} 
